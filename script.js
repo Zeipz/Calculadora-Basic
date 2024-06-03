@@ -13,3 +13,8 @@ function sumar() {
     const resultado = numero1 + numero2;
     mostrarResultado('suma', resultado);
 }
+function multiplicar() {
+    const { numero1, numero2 } = obtenerValores();
+    const resultado = numero1 * numero2;
+    mostrarResultado('multiplicación', resultado);
+}
