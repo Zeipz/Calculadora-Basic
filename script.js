@@ -27,3 +27,8 @@ function dividir() {
         mostrarResultado('división', resultado);
     }
 }
+function restar() {
+    const { numero1, numero2 } = obtenerValores();
+    const resultado = numero1 - numero2;
+    mostrarResultado('resta', resultado);
+}
